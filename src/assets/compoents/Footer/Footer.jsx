@@ -3,8 +3,9 @@ import "./Footer.css"
 const Footer = () => {
 
     return (
-
-        <p>Copy rigth List Task</p>
+        <footer>
+            <p>Copy rigth List Task</p>
+    </footer>
     )
 }
 
