@@ -1,6 +1,6 @@
 import "./Main.css";
 import { useState } from "react";
-/*import { v4 as uuidv4 } from "uuid";*/
+import { v4 as uuidv4 } from 'uuid';
 
 const Main = () => {
   const [list, setList] = useState([]);
@@ -9,7 +9,7 @@ const Main = () => {
   const addTodo = () => {
     const newTodo = {
       title: inputValue,
-      /*id: uuidv4(),*/
+      id: uuidv4(),
       
     };
 
